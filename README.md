@@ -10,7 +10,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: [GitHub pages](https://deangelo777.io/todo/)
+Site published at: [GitHub pages](https://deangelo777.github.io/todoApp/)
 
 ## 🎯 Project features/goals
 
