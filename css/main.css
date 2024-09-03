@@ -2,5 +2,59 @@ body,
 body * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    vertical-align: baseline;
 }
 
+.main-header{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    gap: 2rem;
+    position: sticky;
+    top: 0;
+    background-color: #fff;
+    box-shadow: 0 0.3rem 0.4rem #0002 ;
+
+
+}
+
+.main-header + * {
+    /* margin-top: 10rem; */
+}
+
+.main-header > .logo {
+    height: 3rem;
+
+}
+
+.main-header > .stats {
+display: flex;
+align-items: center;
+gap: 1.5rem;
+}
+
+.main-header .detail{
+    font-weight: bold;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.main-header .value{
+    font-weight: normal;
+    font-size: 1rem;
+
+}
+
+
+@media (min-width: 36rem) {
+.main-header .label{
+    display: block;
+}
+    
+}

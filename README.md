@@ -10,7 +10,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: [GitHub pages](https://front-end-by-rimantas.github.io/40-grupe-portfolio-personal/)
+Site published at: [GitHub pages](https://deangelo777.io/todo/)
 
 ## 🎯 Project features/goals
 
@@ -47,7 +47,7 @@ Would like to run this project locally? Open terminal and follow these steps:
 
 1. Clone the repo
    ```sh
-   git clone https://github.com/front-end-by-rimantas/40-grupe-portfolio.git
+   git clone https://deangelo777.io/todo/
    ```
 2. Install NPM packages
    ```sh
