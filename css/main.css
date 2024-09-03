@@ -6,6 +6,11 @@ body * {
     vertical-align: baseline;
 }
 
+
+main{
+    min-height: calc(100vh - 9rem);
+}
+
 .main-header{
     display: flex;
     width: 100%;
@@ -49,6 +54,17 @@ gap: 1.5rem;
     font-weight: normal;
     font-size: 1rem;
 
+}
+
+
+/* FOOTER */
+
+.main-footer{
+    text-align: center;
+    background-color: #444;
+    color: #fff;
+    padding: 1rem;
+    line-height: 2rem;
 }
 
 
