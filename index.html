@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Todo</title>
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="./css/components/form-create.css" />
+
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link
       rel="apple-touch-icon"
@@ -64,8 +66,8 @@
       </div>
     </header>
     <!-- MAIN -->
-    <main>
-      <div class="lightbox" data-visible="true">
+    <main class="main-content">
+      <div class="lightbox" data-visible="false">
         <div class="background"></div>
         <form class="form-create">
           <fieldset class="form-row">
@@ -98,7 +100,28 @@
         </form>
       </div>
 
-      <section>TASK LIST CONTENT</section>
+      <section class="task-content">
+        <div class="column">
+          <h2 class="title">Todo</h2>
+          <ul class="list">
+            List...
+          </ul>
+        </div>
+
+        <div class="column">
+          <h2 class="title">In progress</h2>
+          <ul class="list">
+            List...
+          </ul>
+        </div>
+
+        <div class="column">
+          <h2 class="title">Done</h2>
+          <ul class="list">
+            List...
+          </ul>
+        </div>
+      </section>
     </main>
 
     <footer class="main-footer">Copyright &copy; Todo 2024</footer>

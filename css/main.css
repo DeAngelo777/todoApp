@@ -2,6 +2,9 @@
 @import url(../css/components/form-create.css);
 @import url(../css/components/footer.css);
 @import url(../css/components/header.css);
+@import url(../css/components/list.css);
+
+
 
 @font-face {
     font-family: 'Playwrite-ExtraLight';

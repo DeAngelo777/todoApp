@@ -5,7 +5,7 @@
     inset: 0;
 }
 
-.lightbox[data-visible='false']{
+.lightbox[data-visible="false"]{
     display: none;
 }
 

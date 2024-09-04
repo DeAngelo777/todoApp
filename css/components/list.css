@@ -1,0 +1,25 @@
+.main-content {
+}
+
+.task-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    background-color: #0001;
+}
+
+.main-content .column {
+display: flex;
+flex-direction: column;
+gap: 1rem;
+}
+
+.main-content .title {
+    border-bottom: 0.1rem solid #ccc;
+}
+
+.task-content .list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
