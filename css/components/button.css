@@ -1,0 +1,32 @@
+.button {
+    background-color: rgb(26, 123, 187);
+    font-family: Helvetica, sans-serif;
+    color: #fff;
+    font-size: 1.5rem;
+    padding: 0.2rem 1rem;
+    border-radius: 0.3rem;
+    border: none;
+    line-height: 1em;
+}
+
+
+@media (max-width: 21rem) {
+    .main-header .detail {
+        display: hidden;
+        font-size: 0;
+        /* background-color: red; */
+        /* display: hidden; */
+    }
+    
+}
+
+@media (min-width: 44rem) {
+    .main-header .detail{
+display: inline;
+;
+    }
+    .main-header .label {
+        display: block;
+    }
+    
+}

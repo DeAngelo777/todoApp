@@ -3,7 +3,6 @@
     display: flex;
     width: 100%;
     align-items: center;
-    justify-content: center;
     justify-content: space-between;
     padding: 1rem 2rem;
     gap: 2rem;
@@ -28,19 +27,27 @@
 display: flex;
 align-items: center;
 gap: 1.5rem;
+margin-left: auto;
 }
 
 .main-header .detail{
+    display: flex;
+    flex-direction: row;
     font-weight: bold;
     font-size: 0.8rem;
     text-transform: uppercase;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
 
 }
 
 .main-header .value{
     font-weight: normal;
-    font-size: 1rem;
+    font-size: 0.9rem;
+    justify-content: center;
+    align-items: center;
 
 }
 
